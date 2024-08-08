@@ -1,4 +1,4 @@
-# ToDoAngApp
+# ToDo Angular App
 The app allows users to manage their tasks using a dynamic and responsive interface. The primary languages used are TypeScript, HTML, and CSS.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.3.
