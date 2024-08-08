@@ -1,0 +1,4 @@
+<div class="container">
+    <app-to-do-form  (sendTasksList)="recieveTasksList($event)"></app-to-do-form>
+    <app-to-do-list [TasksToShow] = "passedList"></app-to-do-list>
+</div>

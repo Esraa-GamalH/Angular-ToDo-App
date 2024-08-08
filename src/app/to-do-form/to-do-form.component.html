@@ -1,0 +1,13 @@
+<section>
+    <form>
+        <div class="form_container">
+            <div class="w-75 mx-auto">
+                <h1>To-Do App!</h1>
+                <label for="exampleInputEmail1" class="form-label float-end">Add new To-Do</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter New Task" (keyup)="setTask($event)"/>
+                <button type="button" class="btn btn-dark float-end mt-3" (click)="saveTask()">Add</button>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </form>
+</section>

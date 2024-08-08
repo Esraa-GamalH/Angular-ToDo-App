@@ -1,0 +1,25 @@
+
+<div class="row">
+    @for (Task of TasksToShow; track $index){
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="card my-2">
+            <div class="card-body">
+                <h5 class="card-title" [ngClass]="Task.isCompleted ? 'add_line_through' : ''">
+                    {{ Task.name }}
+                </h5>
+                <div class="float-end">
+                    <button class="btn btn_delete mx-1" (click)="deleteTask(Task.id)">
+                        Delete
+                    </button>
+                    <button class="btn btn-dark mx-1" (click)="changeState(Task.id)">
+                        Completed
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    }
+    @empty {
+        <p>Let's get some work done!</p>
+    }
+</div>

@@ -1,0 +1,17 @@
+section{
+    background-color: #FFB22C;
+}
+
+.form_container{
+    padding: 50px;
+    color: white;
+}
+
+.clr{
+    clear: both;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}

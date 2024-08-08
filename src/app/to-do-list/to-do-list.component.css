@@ -1,0 +1,21 @@
+.card {
+    background-color: #FFDE4D;
+    color: white;
+}
+
+.btn_delete{
+    background-color: #FF4C4C;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 40px;
+    color: #FFB22C;
+    margin-top: 100px;
+}
+
+.add_line_through{
+    text-decoration: line-through;
+    text-decoration-color:  black;
+}
